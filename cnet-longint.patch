@@ -1,0 +1,11 @@
+--- EXAMPLES/protocol.c~	2003-03-31 05:22:07.000000000 +0200
++++ EXAMPLES/protocol.c	2004-09-21 16:04:46.317748096 +0200
+@@ -32,7 +32,7 @@
+ static void button_pressed(CnetEvent ev, CnetTimer timer, CnetData data)
+ {
+     printf("\n Node number     : %d\n", nodeinfo.nodenumber);
+-    printf(" Node address    : %ld\n", nodeinfo.address);
++    printf(" Node address    : %ld\n", (long int) nodeinfo.address);
+     printf(" Node name       : %s\n", nodeinfo.nodename);
+     printf(" Number of links : %d\n\n", nodeinfo.nlinks);
+ }

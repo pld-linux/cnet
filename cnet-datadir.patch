@@ -1,0 +1,11 @@
+--- src/config.h~	2004-05-12 20:13:43.000000000 +0200
++++ src/config.h	2004-09-21 15:57:34.821345520 +0200
+@@ -169,7 +169,7 @@
+ #if	defined(USE_FREEBSD)
+ #define	CNETPATH	"/usr/local/share/cnet:/usr/local/include:/usr/local/cnetlib"
+ #else
+-#define	CNETPATH	"/usr/local/cnetlib:/usr/lib/cnet:/cslinux/cnetlib"
++#define	CNETPATH	"/usr/share/cnet"
+ #endif
+ 
+ 
