@@ -1,0 +1,10 @@
+--- src/cnet64bits.h~	2004-05-10 20:29:48.000000000 +0200
++++ src/cnet64bits.h	2004-09-21 20:57:20.000000000 +0200
+@@ -59,6 +59,7 @@
+ 	defined(_MIPSEL) || 	\
+ 	defined(__alpha__) || 	\
+ 	defined(__alpha) ||	\
++	defined(__x86_64__) ||	\
+ 	defined(BIT_ZERO_ON_RIGHT)
+ #define IS_LITTLE_ENDIAN	1
+ #endif
