@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://www.csse.uwa.edu.au/cnet/%{name}-%{version}.tgz
+# Source0-md5:	593b63c809773a284bc3d655dc609298
 Patch0:		%{name}-datadir.patch
 Patch1:		%{name}-longint.patch
 URL:		http://www.csse.uwa.edu.au/cnet
