@@ -30,11 +30,12 @@ Western Australia, cnet is used primarily in Chris McDonald's Computer
 Networks (IT312) undergraduate unit.
 
 %description
-Symulator sieci cnet umo¿liwia eksperymenty z ró¿nymi rodzajami warstw
-fizycznych, sieciowych, routingi i transportowych protoko³ów, w ró¿nych
-kombinacjach linków point-to-point, segmentów ethernet. cnet jest
-tworzony i wykorzystywany w wielu kursach sieciowych pobieranych przez
-tysi±ce studentów od roku 1991.
+Symulator sieci cnet umo¿liwia eksperymenty z ró¿nymi rodzajami
+protoko³ów sieciowych warstwy po³±czenia, sieci, routingu i
+transportowej w sieciach sk³adaj±cych siê z dowolnej kombinacji
+po³±czeñ point-to-point i segmentów Ethernetu. cnet jest tworzony i
+wykorzystywany w wielu kursach sieciowych pobieranych przez tysi±ce
+studentów od roku 1991.
 
 %prep
 %setup -q
