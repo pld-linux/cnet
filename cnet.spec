@@ -48,6 +48,7 @@ tysi±ce studentów od roku 1991.
 	CNETDIR=%{_datadir}/cnet \
 	MANDIR=%{_mandir}/man1 \
 	CFLAGS="%{rpmcflags} -fPIC" \
+	XLIBDIRS="-L%{_prefix}/X11R6/%{_lib}" \
 	ANSICC="%{__cc} -ansi" \
 	LIBELFDIR="" \
 	LIBELFINC=""
