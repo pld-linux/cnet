@@ -1,8 +1,10 @@
+# TODO:
+# - check if it works on 64-bit archs (amd64/alpha)
 Summary:	A Network Simulator
 Summary(pl):	Symulator sieci
 Name:		cnet
 Version:	2.0.9
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	http://www.csse.uwa.edu.au/cnet/%{name}-%{version}.tgz
@@ -16,8 +18,6 @@ BuildRequires:	tcl-devel
 BuildRequires:	tk-devel
 Requires:	gcc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define no_install_post_strip 1
 
 %description
 The cnet network simulator enables experimentation with various
