@@ -9,6 +9,7 @@ Source0:	http://www.csse.uwa.edu.au/cnet/%{name}-%{version}.tgz
 # Source0-md5:	593b63c809773a284bc3d655dc609298
 Patch0:		%{name}-datadir.patch
 Patch1:		%{name}-longint.patch
+Patch2:		%{name}-amd64fix.patch
 URL:		http://www.csse.uwa.edu.au/cnet
 BuildRequires:	elfutils-devel
 BuildRequires:	tcl-devel
@@ -39,6 +40,7 @@ tysi±ce studentów od roku 1991.
 %setup -q
 %patch0
 %patch1
+%patch2
 
 %build
 %{__make} \
