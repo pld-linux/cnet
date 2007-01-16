@@ -29,7 +29,7 @@ thousands of students worldwide since 1991. At The University of
 Western Australia, cnet is used primarily in Chris McDonald's Computer
 Networks (IT312) undergraduate unit.
 
-%description
+%description -l pl
 Symulator sieci cnet umo¿liwia eksperymenty z ró¿nymi rodzajami
 protoko³ów sieciowych warstwy po³±czenia, sieci, routingu i
 transportowej w sieciach sk³adaj±cych siê z dowolnej kombinacji
