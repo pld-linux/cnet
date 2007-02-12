@@ -1,7 +1,7 @@
 # TODO:
 # - check if it works on 64-bit archs (amd64/alpha)
 Summary:	A Network Simulator
-Summary(pl):	Symulator sieci
+Summary(pl.UTF-8):   Symulator sieci
 Name:		cnet
 Version:	2.0.9
 Release:	2
@@ -29,13 +29,13 @@ thousands of students worldwide since 1991. At The University of
 Western Australia, cnet is used primarily in Chris McDonald's Computer
 Networks (IT312) undergraduate unit.
 
-%description -l pl
-Symulator sieci cnet umo¿liwia eksperymenty z ró¿nymi rodzajami
-protoko³ów sieciowych warstwy po³±czenia, sieci, routingu i
-transportowej w sieciach sk³adaj±cych siê z dowolnej kombinacji
-po³±czeñ point-to-point i segmentów Ethernetu. cnet jest tworzony i
-wykorzystywany w wielu kursach sieciowych pobieranych przez tysi±ce
-studentów od roku 1991.
+%description -l pl.UTF-8
+Symulator sieci cnet umoÅ¼liwia eksperymenty z rÃ³Å¼nymi rodzajami
+protokoÅ‚Ã³w sieciowych warstwy poÅ‚Ä…czenia, sieci, routingu i
+transportowej w sieciach skÅ‚adajÄ…cych siÄ™ z dowolnej kombinacji
+poÅ‚Ä…czeÅ„ point-to-point i segmentÃ³w Ethernetu. cnet jest tworzony i
+wykorzystywany w wielu kursach sieciowych pobieranych przez tysiÄ…ce
+studentÃ³w od roku 1991.
 
 %prep
 %setup -q
