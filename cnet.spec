@@ -1,7 +1,7 @@
 # TODO:
 # - check if it works on 64-bit archs (amd64/alpha)
 Summary:	A Network Simulator
-Summary(pl.UTF-8):   Symulator sieci
+Summary(pl.UTF-8):	Symulator sieci
 Name:		cnet
 Version:	2.0.9
 Release:	2
